@@ -1,6 +1,6 @@
 { 
-  "name": "Izumi".
-  "description": " ",
+  "name": "Izumi",
+  "description": "Izumi Bot",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
