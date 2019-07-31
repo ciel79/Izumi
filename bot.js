@@ -5,9 +5,9 @@ client.on('ready', () => {
     console.log('Izumi is online, darling!');
 })
 
-client.on('greeting', greeting => {
-  if (greeting.content === 'Hewwo') {
-    greeting.reply('Hello darling!);
+client.on('message', message => {
+  if (message.content === 'Hewwo') {
+    message.reply('Hello darling!);
     }
 })
 
